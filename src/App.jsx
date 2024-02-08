@@ -5,6 +5,7 @@ import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
 import MattsThings from './pages/MattsThings/MattsThings'
 import JiasThings from './pages/JiasTHings/JiasThings'
+import AsaThings from './pages/AsaThings/AsaThings'
 
 
 const App = () => {
@@ -80,6 +81,13 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
+  const AsaThings = [
+    {
+      name: "Sprite",
+      image: "https://imgs.xkcd.com/comics/sprite.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+  ]
 
 
 
@@ -106,6 +114,10 @@ const App = () => {
       <Route
         path="/jias-things"
         element={<JiasThings things={jiasThings} />}
+      />
+      <Route
+        path="/Asa-things"
+        element={<AsaThings things={AsaThings} />}
       />
     </Routes>
   )
