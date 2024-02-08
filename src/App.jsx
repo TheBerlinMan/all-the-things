@@ -88,6 +88,13 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
+  const TommysThings = [
+    {
+      name: "syrup",
+      image: "https://imgs.xkcd.com/comics/sprite.png",  
+      attributes: ["sloppy", "yummy", "goodness"],
+    },
+  ]
 
 
 
@@ -118,6 +125,10 @@ const App = () => {
       <Route
         path="/Asa-things"
         element={<AsaThings things={AsaThings} />}
+      />
+      <Route
+        path="/Tommys-things"
+        element={<TommysThings things={TommysThings} />}
       />
     </Routes>
   )
