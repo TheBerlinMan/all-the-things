@@ -1,7 +1,7 @@
 import ThingCard from '../../components/ThingCard/ThingCard'
 import { Link } from 'react-router-dom'
 
-const AsaThings = (prop) => {
+const AsaThings = (props) => {
   return (
     <>
       <h1>Asas Things</h1>

@@ -81,7 +81,7 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-  const AsasThings = [
+  const AsaThings = [
     {
       name: "Sprite",
       image: "https://imgs.xkcd.com/comics/sprite.png",  
