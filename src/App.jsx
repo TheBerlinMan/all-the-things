@@ -6,6 +6,7 @@ import Landing from './pages/Landing/Landing'
 import MattsThings from './pages/MattsThings/MattsThings'
 import JiasThings from './pages/JiasTHings/JiasThings'
 import AsaThings from './pages/AsaThings/AsaThings'
+import TommysThings from './pages/TommysThings/TommysThings'
 
 
 const App = () => {
@@ -81,14 +82,14 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-  const AsaThings = [
+  const asaThings = [
     {
       name: "Sprite",
       image: "https://imgs.xkcd.com/comics/sprite.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
-  const TommysThings = [
+  const tommysThings = [
     {
       name: "syrup",
       image: "https://imgs.xkcd.com/comics/sprite.png",  
@@ -123,12 +124,12 @@ const App = () => {
         element={<JiasThings things={jiasThings} />}
       />
       <Route
-        path="/Asa-things"
-        element={<AsaThings things={AsaThings} />}
+        path="/asa-things"
+        element={<AsaThings things={asaThings} />}
       />
       <Route
-        path="/Tommys-things"
-        element={<TommysThings things={TommysThings} />}
+        path="/tommys-things"
+        element={<TommysThings things={tommysThings} />}
       />
     </Routes>
   )
